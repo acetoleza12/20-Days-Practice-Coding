@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-label="20 Days Practice Coding animated banner">
+<rect width="960" height="300" rx="20" fill="#0d1117"/>
+<rect x="20" y="20" width="920" height="260" rx="12" fill="#161b22" stroke="#30363d"/>
+<circle cx="44" cy="44" r="5" fill="#ff5f57"/><circle cx="62" cy="44" r="5" fill="#febc2e"/><circle cx="80" cy="44" r="5" fill="#28c840"/>
+<g font-family="Consolas, monospace">
+<text x="108" y="49" fill="#8b949e" font-size="13">ace@practice ~ / one day, one project</text>
+<text x="52" y="112" fill="#58a6ff" font-size="16">&gt; building consistency.js</text>
+<text x="52" y="163" fill="#f0f6fc" font-size="38" font-weight="bold">20 DAYS PRACTICE CODING</text>
+<text x="52" y="202" fill="#8b949e" font-size="18">Learn. Build. Commit. Repeat.</text>
+<rect x="391" y="185" width="10" height="20" fill="#3fb950"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+<text x="52" y="251" fill="#3fb950" font-size="14">JAVASCRIPT</text><text x="190" y="251" fill="#8b949e" font-size="14">20 small projects. One growing skill set.</text>
+</g>
+<rect x="52" y="218" width="856" height="4" rx="2" fill="#30363d"/>
+<rect x="52" y="218" width="0" height="4" rx="2" fill="#3fb950"><animate attributeName="width" values="0;856;856;0" keyTimes="0;0.8;0.95;1" dur="8s" repeatCount="indefinite"/></rect>
+</svg>
