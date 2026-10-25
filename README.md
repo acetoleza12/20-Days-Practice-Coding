@@ -20,7 +20,7 @@ Update the checkboxes as each day's project is uploaded.
 
 - [x] Day 01 — [Calculator](./01-calculator/)
 - [x] Day 02 — [Even or odd](./02-even-or-odd/)
-- [x] Day 03 — Largest number
+- [x] Day 03 — [Largest number](./03-largest-number/)
 - [ ] Day 04 — Reverse text
 - [ ] Day 05 — Palindrome checker
 - [ ] Day 06 — Factorial
