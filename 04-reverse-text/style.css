@@ -1,0 +1,199 @@
+/* Ace Practice Code — Lilac glass */
+:root {
+  --bg: #e7ddfb;
+  --ink: #392458;
+  --accent: #7752bd;
+  --on: white;
+  --panel: #ffffffaa;
+  --field: #ffffffb8;
+  --line: #b9a2db;
+  --radius: 24px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px var(--font, system-ui, sans-serif);
+}
+header {
+  padding: 24px 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 1px solid var(--line);
+  font-size: 12px;
+}
+header strong {
+  font-size: 18px;
+}
+.mark {
+  display: inline-block;
+  padding: 8px 10px;
+  margin-right: 10px;
+  background: var(--accent);
+  color: var(--on);
+  border-radius: var(--radius);
+}
+main {
+  width: min(680px, 88%);
+  margin: 58px auto;
+  flex: 1;
+}
+.eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: var(--accent);
+}
+h1 {
+  font-size: clamp(36px, 7vw, 60px);
+  line-height: 1.05;
+  letter-spacing: -2px;
+  margin: 20px 0;
+}
+p {
+  line-height: 1.8;
+  opacity: 0.8;
+}
+.card {
+  padding: clamp(22px, 5vw, 36px);
+  margin-top: 30px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+label {
+  display: block;
+  margin: 20px 0 9px;
+  font-size: 13px;
+  font-weight: 700;
+}
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  font: inherit;
+  background: var(--field);
+  color: var(--ink);
+}
+textarea {
+  min-height: 115px;
+  resize: vertical;
+}
+button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 24px;
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  background: var(--accent);
+  color: var(--on);
+  font: 700 15px var(--font, system-ui, sans-serif);
+  cursor: pointer;
+  transition:
+    filter 0.2s,
+    transform 0.2s;
+}
+button:hover {
+  filter: brightness(1.12);
+  transform: translateY(-2px);
+}
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 4px;
+}
+.result-label {
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin: 28px 0 10px;
+  opacity: 0.7;
+}
+output {
+  display: block;
+  padding: 20px;
+  background: var(--field);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  line-height: 1.7;
+  max-height: 350px;
+  overflow: auto;
+}
+.error {
+  background: #fff0ec !important;
+  color: #9a2923 !important;
+}
+.note {
+  font-size: 12px;
+  margin-top: 22px;
+}
+footer {
+  padding: 24px;
+  text-align: center;
+  font-size: 12px;
+  border-top: 1px solid var(--line);
+}
+#stop {
+  background: var(--field);
+  color: var(--ink);
+  border-color: var(--line);
+  margin-top: 10px;
+}
+#stop[hidden] {
+  display: none;
+}
+@media (max-width: 580px) {
+  header {
+    align-items: flex-start;
+    padding: 20px 6%;
+  }
+  header strong {
+    font-size: 15px;
+  }
+  header > span {
+    font-size: 9px;
+    white-space: nowrap;
+    padding-top: 10px;
+  }
+  main {
+    margin: 35px auto;
+  }
+  h1 {
+    font-size: 38px;
+  }
+}
+/* Individual site design */
+body {
+  background:
+    radial-gradient(at 10% 20%, #c4b2f5, transparent 50%),
+    radial-gradient(at 90% 80%, #fabbe2, transparent 50%), #eee4ff;
+}
+.card {
+  backdrop-filter: blur(20px);
+  box-shadow: 0 25px 80px #684b8826;
+}
+h1 {
+  font-weight: 400;
+}
+button {
+  border-radius: 50px;
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
