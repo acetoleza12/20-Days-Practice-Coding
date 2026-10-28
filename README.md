@@ -21,8 +21,8 @@ Update the checkboxes as each day's project is uploaded.
 - [x] Day 01 — [Calculator](./01-calculator/)
 - [x] Day 02 — [Even or odd](./02-even-or-odd/)
 - [x] Day 03 — [Largest number](./03-largest-number/)
-- [x] Day 04 — [Reverse text](./04-Reverse-text/)
-- [x] Day 05 — [Palindrome checker](./05-Panlindrome-checker/)
+- [x] Day 04 — [Reverse text](./04-reverse-text/)
+- [x] Day 05 — [Palindrome checker](./05-panlindrome-checker/)
 - [ ] Day 06 — Factorial
 - [ ] Day 07 — Times table
 - [ ] Day 08 — Vowel counter
