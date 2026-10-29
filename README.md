@@ -23,7 +23,7 @@ Update the checkboxes as each day's project is uploaded.
 - [x] Day 03 — [Largest number](./03-largest-number/)
 - [x] Day 04 — [Reverse text](./04-reverse-text/)
 - [x] Day 05 — [Palindrome checker](./05-palindrome-checker/)
-- [ ] Day 06 — Factorial
+- [x] Day 06 — [Factorial](./06-factorial/)
 - [ ] Day 07 — Times table
 - [ ] Day 08 — Vowel counter
 - [ ] Day 09 — Temperature
