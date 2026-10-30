@@ -24,7 +24,7 @@ Update the checkboxes as each day's project is uploaded.
 - [x] Day 04 — [Reverse text](./04-reverse-text/)
 - [x] Day 05 — [Palindrome checker](./05-palindrome-checker/)
 - [x] Day 06 — [Factorial](./06-factorial/)
-- [ ] Day 07 — Times table
+- [x] Day 07 — [Times table](./07-times-table/)
 - [ ] Day 08 — Vowel counter
 - [ ] Day 09 — Temperature
 - [ ] Day 10 — Remove duplicates
