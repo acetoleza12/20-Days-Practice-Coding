@@ -25,7 +25,7 @@ Update the checkboxes as each day's project is uploaded.
 - [x] Day 05 — [Palindrome checker](./05-palindrome-checker/)
 - [x] Day 06 — [Factorial](./06-factorial/)
 - [x] Day 07 — [Times table](./07-times-table/)
-- [ ] Day 08 — Vowel counter
+- [x] Day 08 — [Vowel counter](./08-vowel-counter/)
 - [ ] Day 09 — Temperature
 - [ ] Day 10 — Remove duplicates
 - [ ] Day 11 — Number sorter
